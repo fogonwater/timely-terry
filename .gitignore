@@ -1,7 +1,8 @@
- # General OSX
+# General OSX and system
 .DS_Store
 .AppleDouble
 .LSOverride
+.vscode/
 
 # Virtual environments
 venv/
