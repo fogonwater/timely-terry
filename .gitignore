@@ -1,3 +1,6 @@
+# Project config file
+config.py
+
 # General OSX and system
 .DS_Store
 .AppleDouble
