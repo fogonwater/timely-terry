@@ -1,3 +1,11 @@
+ # General OSX
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environments
+venv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
