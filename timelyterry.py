@@ -36,7 +36,7 @@ def retrieve_page_text(url, user_agent):
         response = requests.get(url, headers=headers)
     # If request breaks, print error and return None
     except Exception as e:
-        print("{} ERROR: {}".format(tstamp(), e))
+        print("{} * {}".format(tstamp(), e))
         print("Terry was unable to retrieve: {}".format(url))
         return None
     # Also bail on a clean response where status code is not 200
