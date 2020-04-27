@@ -16,3 +16,6 @@ PAGES = [
 
 # Specify number of seconds Terry will sleep between checks.
 CHECK_FREQUENCY = 60
+
+# Tags that Terry will ignore while assessing a page for changes
+IGNORE_ELEMENTS = ['style', 'script', 'head', 'title', 'meta', '[document]']
