@@ -5,7 +5,7 @@ Check a list of web pages to see if content is updated and push updates to Slack
 
 ## Installation
 
-### Install Requests and BeautifulSoup modules
+#### Install Requests and BeautifulSoup modules
 
 Recommend using Python3 with pip and virtualenv. See [Installing packages using pip and virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) if you are unfamiliar with the pip package manager or virtual environments in python.
 
@@ -15,14 +15,14 @@ Assuming pip is setup and your virtualenv is active:
 pip install -r requirements.txt
 ```
 
-### Configure Terry
+#### Configure Terry
 
 Set Terry up with `config.py`. Feel free to change any of the settings, but there are two key ones:
 
 - `SLACK_WEBHOOK`: replace the placeholder URL with a webhook to your channel. See https://api.slack.com/messaging/webhooks for instructions
 - `PAGES`: Replace placeholder page dictionaries with your own pages for scanning. Each dictionary needs a `label` and a `url`
 
-## Use
+## How to use
 
 From a Python script or sessionm you can call Terry as a module.
 
