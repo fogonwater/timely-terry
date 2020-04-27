@@ -54,7 +54,7 @@ Terry has detected 1 page changes to date.
 
 By default, Terry will wait 60 seconds between scans. You can configure this wait time in `config.py`.
 
-If you are confident Terry is working, you can also just run Terry directoy from a terminal. This will initialise Terry start scan mode.
+If you are confident Terry is working, you can also just run Terry directly from a terminal. This will initialise Terry and start scan mode.
 
 ```
 % python3 timelyterry.py
