@@ -1,4 +1,4 @@
-# The string that Terry will identify himself
+# The string Terry will use to identify itself to source websites
 USER_AGENT = "Timely Terry/0.1"
 
 # Terry uses Slack "webhooks" to POST messages to a specific channel.
